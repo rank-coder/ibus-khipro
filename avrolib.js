@@ -185,7 +185,7 @@ OmicronLab.Avro.Phonetic = {
     },
     data: {
         "patterns":
-       [
+[
   {
     "find": "$",
     "replace": "৳",
@@ -308,6 +308,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "আ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -331,6 +341,16 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "prefix",
             "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "অ্যা",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -358,6 +378,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ব",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -381,6 +411,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ভ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -408,6 +448,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "চ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -431,6 +481,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ছ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -458,6 +518,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "দ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -481,6 +551,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ড",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -508,8 +588,23 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ঢ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
+  },
+  {
+    "find": "dfff",
+    "replace": "ড্ড",
+    "rules": []
   },
   {
     "find": "dh",
@@ -531,6 +626,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ধ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -556,6 +661,16 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "prefix",
             "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "এ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -588,6 +703,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "গ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -618,6 +743,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ঘ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -641,6 +776,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "হ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -673,6 +818,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "ই",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -696,6 +851,16 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "prefix",
             "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "ঈ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -723,6 +888,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "জ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -746,6 +921,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ঝ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -773,6 +958,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ক",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -796,6 +991,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "খ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -823,6 +1028,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ল",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -846,6 +1061,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ম",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -873,6 +1098,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ন",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -896,6 +1131,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ণ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -923,13 +1168,53 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ঞ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
   {
     "find": "ng",
     "replace": "ং",
-    "rules": []
+    "rules": [
+      {
+        "replace": "ঙ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "/"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ঙ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
+      }
+    ]
   },
   {
     "find": "ngf",
@@ -953,13 +1238,53 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ঙ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
   {
     "find": "o",
     "replace": "",
-    "rules": []
+    "rules": [
+      {
+        "replace": "অ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "f"
+          }
+        ]
+      },
+      {
+        "replace": "অ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "অ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
+      }
+    ]
   },
   {
     "find": "oi",
@@ -997,6 +1322,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "ঐ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1020,6 +1355,16 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "prefix",
             "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "ও",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1061,6 +1406,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "ঔ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1086,6 +1441,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "প",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1109,6 +1474,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ফ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1146,6 +1521,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "র",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1171,6 +1556,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ড়",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1194,6 +1589,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ঢ়",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1226,6 +1631,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "স",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1249,6 +1664,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ষ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1276,6 +1701,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "শ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1299,6 +1734,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "ত",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1326,6 +1771,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ট",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1351,8 +1806,23 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "ঠ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
+  },
+  {
+    "find": "tfff",
+    "replace": "ট্ট",
+    "rules": []
   },
   {
     "find": "th",
@@ -1374,6 +1844,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "থ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1401,6 +1881,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "উ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1424,6 +1914,16 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "prefix",
             "scope": "!consonant"
+          }
+        ]
+      },
+      {
+        "replace": "ঊ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
@@ -1451,6 +1951,16 @@ OmicronLab.Avro.Phonetic = {
             "scope": "!consonant"
           }
         ]
+      },
+      {
+        "replace": "ঋ",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1476,6 +1986,16 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "য়",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
+          }
+        ]
       }
     ]
   },
@@ -1499,6 +2019,16 @@ OmicronLab.Avro.Phonetic = {
             "type": "suffix",
             "scope": "!exact",
             "value": "`"
+          }
+        ]
+      },
+      {
+        "replace": "য",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "exact",
+            "value": "w"
           }
         ]
       }
