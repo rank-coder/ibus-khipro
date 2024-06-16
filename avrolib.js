@@ -277,6 +277,26 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "v",
+    "replace": "ভ্",
+    "rules": [
+      {
+        "replace": "ভ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "uu",
     "replace": "ূ",
     "rules": [
