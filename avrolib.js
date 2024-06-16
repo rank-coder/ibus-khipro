@@ -264,6 +264,10 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "x",
+    "replace": "্"
+  },
+  {
     "find": "w",
     "replace": "ৃ",
     "rules": [
@@ -675,10 +679,6 @@ OmicronLab.Avro.Phonetic = {
         ]
       }
     ]
-  },
-  {
-    "find": "qq",
-    "replace": "্"
   },
   {
     "find": "q",
