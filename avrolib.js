@@ -678,7 +678,7 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "qq",
-    "replace": "্ (হসন্ত)"
+    "replace": "্"
   },
   {
     "find": "q",
