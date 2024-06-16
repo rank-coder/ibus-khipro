@@ -217,11 +217,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -248,11 +243,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -392,11 +382,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -431,11 +416,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -462,11 +442,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -501,11 +476,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -532,11 +502,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -571,11 +536,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -602,11 +562,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -645,11 +600,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -680,11 +630,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -711,11 +656,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -758,11 +698,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -789,11 +724,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -996,11 +926,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1027,11 +952,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1066,11 +986,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1097,11 +1012,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1136,11 +1046,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1167,11 +1072,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1206,11 +1106,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1237,11 +1132,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1276,11 +1166,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1311,11 +1196,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1342,11 +1222,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1455,11 +1330,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1486,11 +1356,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1525,11 +1390,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1603,11 +1463,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1642,11 +1497,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1673,11 +1523,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1712,11 +1557,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1743,11 +1583,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
@@ -1782,11 +1617,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1817,11 +1647,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!exact",
-            "value": "/"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
             "value": "`"
           }
         ]
@@ -1848,11 +1673,6 @@ OmicronLab.Avro.Phonetic = {
           {
             "type": "suffix",
             "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "/"
           },
           {
             "type": "suffix",
