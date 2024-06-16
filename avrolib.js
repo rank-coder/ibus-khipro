@@ -1372,7 +1372,7 @@ OmicronLab.Avro.Phonetic = {
   }
 ],
         "vowel":"aeiouqwx",
-        "consonant":"bcdfghjklmnprstvyz/",
+        "consonant":"bcdfghjklmnprstvyz",
         "digit":"1234567890",
         "casesensitive":"oiudgjnrstyz"
     }
