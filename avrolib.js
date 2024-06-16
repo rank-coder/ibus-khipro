@@ -1847,8 +1847,8 @@ OmicronLab.Avro.Phonetic = {
     "replace": "৳"
   }
 ],
-        "vowel":"aeiou",
-        "consonant":"bcdfghjklmnpqrstvwxyz",
+        "vowel":"aeiouqwx",
+        "consonant":"bcdfghjklmnprstvyz",
         "digit":"1234567890",
         "casesensitive":"oiudgjnrstyz"
     }
