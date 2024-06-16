@@ -540,23 +540,7 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "q",
-    "replace": "ং",
-    "rules": [
-      {
-        "replace": "ঙ",
-        "matches": [
-          {
-            "type": "suffix",
-            "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "`"
-          }
-        ]
-      }
-    ]
+    "replace": "ং"
   },
   {
     "find": "ph",
