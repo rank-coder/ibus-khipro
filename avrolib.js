@@ -112,6 +112,21 @@ OmicronLab.Avro.Phonetic = {
                                         break;
                                     }
                                 }
+                                // Digit
+                                else if(match.scope === "digit") {
+                                    if(
+                                        ! (
+                                            (
+                                                (chk >= 0 && (match.type === "prefix")) || 
+                                                (chk < fixed.length && match.type === ("suffix"))
+                                            ) && 
+                                            this.isDigit(fixed.charAt(chk))
+                                        ) ^ match.negative
+                                    ) {
+                                        replace = false;
+                                        break;
+                                    }
+                                }
                                 // Exact
                                 else if(match.scope === "exact") {
                                     var s, e;
@@ -173,6 +188,9 @@ OmicronLab.Avro.Phonetic = {
     },
     isConsonant: function(c) {
         return (this.data.consonant.indexOf(c.toLowerCase()) >= 0);
+    },
+    isDigit: function(c) {
+        return (this.data.digit.indexOf(c) >= 0);
     },
     isPunctuation: function(c) {
         return (!(this.isVowel(c) || this.isConsonant(c)));
