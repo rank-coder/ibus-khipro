@@ -2011,7 +2011,7 @@ OmicronLab.Avro.Phonetic = {
 ],
         "vowel":"aeiou",
         "consonant":"bcdfghjklmnpqrstvwxyz",
-        "digit":"1234567890"
-        //"casesensitive":"oiudgjnrstyz"
+        "digit":"1234567890",
+        "casesensitive":"oiudgjnrstyz"
     }
 };
