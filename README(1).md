@@ -2,7 +2,7 @@
 For English please scroll down.
 ## পরিচিতি
 অভ্র কিবোর্ডে ফোনেটিক লেআউটে লেখার সময় আমাদেরকে বারবার শিফট চাপতে হয়, ফলে লেখার ফ্লো বা ধারাবাহিকতা নষ্ট হয়ে যায়; লেখার গতি তাই একটা নির্দিষ্ট পরিমাণের বেশি বাড়ানো যায় না। চীনের একটা রোমানাইজেশন পদ্ধতি 'পিনইন'-এ কেস ইনসেনসিটিভ ফোনেটিক ম্যাপিং ব্যবহার করা হয়। তাই আমরা চেষ্টা করছি বাংলার রোমানাইজেশনভিত্তিক টাইপিংয়ে সেরকম দ্রুতগতি আনার। চীনে পিনইন-ভিত্তিক ইনপুট মেথড ব্যবহার করে এত জটিল একটা ভাষা ইংরেজির থেকেও দ্রুত গতিতে লিখছে। ক্ষিপ্র কিবোর্ডের ডেভেলপমেন্ট এখনো চলছে। আপনার কোনো অভিযোগ বা পরামর্শ থাকলে আমাদের সাথে যোগাযোগ করতে পারেন নিচে দেওয়া লিংকে।
-## [সূচিপত্র]
+## [সূচিপত্র](https://github.com/rank-coder/ibus-khipro/blob/master/README(1).md#%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0-1)
 ## কীভাবে কাজ করে আর কী কী ফিচার আছে
 প্রথমেই বলে রাখি এখনও ক্ষিপ্র কিবোর্ডের ডেভেলপমেন্ট চলমান। তাই আইবাস-অভ্রর সাজেশন ফিচারটা অফ রেখে ব্যবহার করতে হবে। "enter key only closes the suggestion window" এই অপশনটাও বন্ধ রাখলে ভালো এবার দেখে নিই ক্ষিপ্র কিবোর্ডের ম্যাপিংটা কী রকম।
 
@@ -24,3 +24,27 @@ For English please scroll down.
 7. জ্ঞ গুরুত্বপূর্ণ যুক্তবর্ণ হওয়ায় এর জন্য আলাদা ম্যাপিং: gf => জ্ঞ। উদাহরণ: বিজ্ঞান <= bigfan.
 ## সূচিপত্র
 হ
+## ইনস্টল ও আনইনস্টল করা
+### যেকোনো লিনাক্স ডিস্ট্রোতে সোর্স থেকে বিল্ড করা
+#### Fedora
+Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
+```
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake # this installs aclocal, autoconf, and automake;  sudo dnf install ibus-devel ibus-libs  # to repair "missing ibus-1.0 error";  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+```
+এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
+#### অন্যান্য ডিস্ট্রো
+সোর্স থেকে বিল্ড করার জন্য নিচের প্যাকেজগুলো (অথবা আপনার ডিস্ট্রোতে এগুলোর সমকক্ষ প্যাকেজগুলো) লাগবে
+```
+ git
+ libibus-1.0-dev
+ automake
+ autoconf
+ make
+ gjs
+ ibus
+```
+উপরের প্যাকেজগুলো ইনস্টল করা হলে নিচের কমান্ড দিয়ে ইনস্টল করতে হবে:
+```
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+```
+এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে এনাবল করে নিতে হবে।
