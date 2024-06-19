@@ -228,20 +228,6 @@ OmicronLab.Avro.Phonetic = {
     "replace": "য়্",
     "rules": [
       {
-        "replace": "্য",
-        "matches": [
-          {
-            "type": "prefix",
-            "scope": "consonant"
-          },
-          {
-            "type": "prefix",
-            "scope": "!exact",
-            "value": "r"
-          }
-        ]
-      },
-      {
         "replace": "য়",
         "matches": [
           {
