@@ -43,7 +43,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
  gjs
  ibus
 ```
-উপরের প্যাকেজগুলো ইনস্টল করা হলে নিচের কমান্ড দিয়ে ইনস্টল করতে হবে:
+উপরের প্যাকেজগুলো ইনস্টল করা হলে নিচের কমান্ড দিয়ে ক্ষিপ্র ইনস্টল করতে হবে:
 ```
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
