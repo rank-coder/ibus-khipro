@@ -240,6 +240,20 @@ OmicronLab.Avro.Phonetic = {
             "value": "`"
           }
         ]
+      },
+      {
+        "replace": "্য",
+        "matches": [
+          {
+            "type": "prefix",
+            "scope": "consonant"
+          },
+          {
+            "type": "prefix",
+            "scope": "!exact",
+            "value": "r"
+          }
+        ]
       }
     ]
   },
