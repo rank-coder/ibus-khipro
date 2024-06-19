@@ -228,20 +228,6 @@ OmicronLab.Avro.Phonetic = {
     "replace": "য়্",
     "rules": [
       {
-        "replace": "য়",
-        "matches": [
-          {
-            "type": "suffix",
-            "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "`"
-          }
-        ]
-      },
-      {
         "replace": "্য",
         "matches": [
           {
@@ -252,6 +238,20 @@ OmicronLab.Avro.Phonetic = {
             "type": "prefix",
             "scope": "!exact",
             "value": "r"
+          }
+        ]
+      },
+      {
+        "replace": "য়",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
           }
         ]
       }
