@@ -5,7 +5,7 @@
 #### [সূচিপত্র দেখতে এখানে ক্লিক করুন](https://github.com/rank-coder/ibus-khipro/blob/master/README.md#%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0)
 ## কীভাবে কাজ করে আর কী কী ফিচার আছে
 প্রথমেই বলে রাখি এখনও ক্ষিপ্র কিবোর্ডের ডেভেলপমেন্ট চলমান। তাই আইবাস-অভ্রর সাজেশন ফিচারটা অফ রেখে ব্যবহার করতে হবে। "enter key only closes the suggestion window" এই অপশনটাও বন্ধ রাখলে ভালো। এবার দেখে নিই ক্ষিপ্র কিবোর্ডের ম্যাপিংটা কী রকম।
-![বাংলা ইনপুট মেথড ক্ষিপ্র](https://github.com/rank-coder/ibus-khipro/assets/54497225/db8fec4a-1d35-4e87-8197-6e3cebcdaabd)
+![বাংলা ইনপুট মেথড ক্ষিপ্র](https://github.com/rank-coder/ibus-khipro/assets/54497225/26957873-b65c-43ec-a14b-17cfc19ca2af)
 
 ## সূচিপত্র
 1. [কীভাবে কাজ করে আর কী কী ফিচার আছে](https://github.com/rank-coder/ibus-khipro/blob/master/README.md#%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%95%E0%A7%80-%E0%A6%AB%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%9B%E0%A7%87)
