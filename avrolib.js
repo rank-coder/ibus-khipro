@@ -1300,7 +1300,7 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": ";;",
-    "replace": ""
+    "replace": ";"
   },
   {
     "find": ";",
