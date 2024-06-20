@@ -1339,8 +1339,12 @@ OmicronLab.Avro.Phonetic = {
     "replace": "০"
   },
   {
-    "find": "/",
+    "find": "//",
     "replace": "/"
+  },
+  {
+    "find": "/",
+    "replace": ""
   },
   {
     "find": "./",
@@ -1365,11 +1369,6 @@ OmicronLab.Avro.Phonetic = {
       }
     ]
   },
-  {
-    "find": "$",
-    "replace": "৳"
-  }
-],
   {
     "find": "$",
     "replace": "৳"
