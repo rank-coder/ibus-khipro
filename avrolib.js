@@ -348,6 +348,10 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "ttf",
+    "replace": "ট্ট"
+  },
+  {
     "find": "th",
     "replace": "থ্",
     "rules": [
@@ -366,10 +370,6 @@ OmicronLab.Avro.Phonetic = {
         ]
       }
     ]
-  },
-  {
-    "find": "tfff",
-    "replace": "ট্ট"
   },
   {
     "find": "tff",
@@ -1097,10 +1097,6 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
-    "find": "dfff",
-    "replace": "ড্ড"
-  },
-  {
     "find": "dff",
     "replace": "ঢ্",
     "rules": [
@@ -1139,6 +1135,10 @@ OmicronLab.Avro.Phonetic = {
         ]
       }
     ]
+  },
+  {
+    "find": "ddf",
+    "replace": "ড্ড"
   },
   {
     "find": "d",
