@@ -1299,7 +1299,7 @@ OmicronLab.Avro.Phonetic = {
     "replace": "‌"
   },
   {
-    "find": ";;",
+    "find": ";/",
     "replace": ";"
   },
   {
