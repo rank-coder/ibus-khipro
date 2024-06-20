@@ -1299,14 +1299,6 @@ OmicronLab.Avro.Phonetic = {
     "replace": "‌"
   },
   {
-    "find": ";/",
-    "replace": ";"
-  },
-  {
-    "find": ";",
-    "replace": ""
-  },
-  {
     "find": "9",
     "replace": "৯"
   },
@@ -1347,7 +1339,11 @@ OmicronLab.Avro.Phonetic = {
     "replace": "০"
   },
   {
-    "find": ".;",
+    "find": "/",
+    "replace": "/"
+  },
+  {
+    "find": "./",
     "replace": "."
   },
   {
