@@ -232,7 +232,8 @@ OmicronLab.Avro.Phonetic = {
         "matches": [
           {
             "type": "suffix",
-            "scope": "!consonant"
+            "scope": "!exact",
+            "value": "$z"
           },
           {
             "type": "suffix",
@@ -503,7 +504,8 @@ OmicronLab.Avro.Phonetic = {
         "matches": [
           {
             "type": "suffix",
-            "scope": "!consonant"
+            "scope": "!exact",
+            "value": "$z"
           },
           {
             "type": "suffix",
@@ -523,7 +525,8 @@ OmicronLab.Avro.Phonetic = {
         "matches": [
           {
             "type": "suffix",
-            "scope": "!consonant"
+            "scope": "!exact",
+            "value": "$z"
           },
           {
             "type": "suffix",
