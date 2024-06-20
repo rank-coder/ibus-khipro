@@ -59,3 +59,4 @@ sudo make uninstall
 ```
 এই কমান্ড দিলেই ক্ষিপ্র আনইনস্টল হয়ে যাবে। তারপরেই কেবল আপনি ibus-khipro ফোল্ডারটি ডিলিট করবেন, তার আগে নয়।
 # Documentation (Engilsh)
+To be added...
