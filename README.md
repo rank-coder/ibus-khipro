@@ -53,7 +53,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  acloca
 ```
 এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
 ### আনইনস্টল করা
-উপরে বর্ণিত পদ্দতিতে ইনস্টল করে থাকলে আপনার Home directory বা ফোল্ডারে একটা ibus-khipro নামে ফোল্ডার তৈরি হবে। সেই ফোল্ডারে ঢুকে:
+উপরে বর্ণিত পদ্ধতিতে ইনস্টল করে থাকলে আপনার Home directory বা ফোল্ডারে একটা ibus-khipro নামে ফোল্ডার তৈরি হবে। সেই ফোল্ডারে ঢুকে:
 ```
 sudo make uninstall
 ```
