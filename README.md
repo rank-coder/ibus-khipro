@@ -28,12 +28,12 @@
 7. জ্ঞ গুরুত্বপূর্ণ যুক্তবর্ণ হওয়ায় এর জন্য আলাদা ম্যাপিং: gf => জ্ঞ। উদাহরণ: বিজ্ঞান <== bigfan.
 8. য়, ড়, ঢ় এই তিনটি ব্যঞ্জনের পরে হসন্ত আসা খুবই বিরল। তাই এগুলোর পরে শুধু য-ফলা যোগ করতে গেলেই হসন্ত অটো আসবে। অন্যথায় অটো আসবে না; জোর করে আনতে হবে: য়্ক <== yxxk, হয়ত <== hoyto, বড়দা <== borfda,
 
-## ইনস্টল ও আনইনস্টল করা
+## ইনস্টল, আপডেট, ও আনইনস্টল করা
 ### যেকোনো লিনাক্স ডিস্ট্রোতে সোর্স থেকে বিল্ড করা
 #### Fedora
 Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
 ```
-git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
 এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
 #### অন্যান্য ডিস্ট্রো
@@ -52,6 +52,8 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
 এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
+### আপডেট করা
+আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।
 ### আনইনস্টল করা
 উপরে বর্ণিত পদ্ধতিতে ইনস্টল করে থাকলে আপনার Home directory বা ফোল্ডারে একটা ibus-khipro নামে ফোল্ডার তৈরি হবে। সেই ফোল্ডারে ঢুকে:
 ```
