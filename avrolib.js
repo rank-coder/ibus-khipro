@@ -353,6 +353,10 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "txx",
+    "replace": "ৎ"
+  },
+  {
     "find": "ttf",
     "replace": "ট্ট"
   },
