@@ -33,7 +33,7 @@
 #### Fedora
 Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
 ```
-git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake # this installs aclocal, autoconf, and automake;  sudo dnf install ibus-devel ibus-libs  # to repair "missing ibus-1.0 error";  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
 এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
 #### অন্যান্য ডিস্ট্রো
