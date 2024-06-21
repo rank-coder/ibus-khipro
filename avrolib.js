@@ -279,19 +279,24 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "v",
-    "replace": "ভ্",
+    "replace": "ো",
     "rules": [
       {
-        "replace": "ভ",
+        "replace": "ও",
         "matches": [
           {
             "type": "suffix",
-            "scope": "!consonant"
-          },
+            "scope": "exact",
+            "value": "f"
+          }
+        ]
+      },
+      {
+        "replace": "ও",
+        "matches": [
           {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "`"
+            "type": "prefix",
+            "scope": "!consonant"
           }
         ]
       }
@@ -1370,8 +1375,8 @@ OmicronLab.Avro.Phonetic = {
     "replace": "৳"
   }
 ],
-        "vowel":"aeiouqwx",
-        "consonant":"bcdfghjklmnprstvyz",
+        "vowel":"aeiouqvwx",
+        "consonant":"bcdfghjklmnprstyz",
         "digit":"1234567890",
         "casesensitive":"oiudgjnrstyz"
     }
