@@ -279,24 +279,19 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "v",
-    "replace": "ো",
+    "replace": "ভ্",
     "rules": [
       {
-        "replace": "ও",
+        "replace": "ভ",
         "matches": [
           {
             "type": "suffix",
-            "scope": "exact",
-            "value": "f"
-          }
-        ]
-      },
-      {
-        "replace": "ও",
-        "matches": [
-          {
-            "type": "prefix",
             "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
           }
         ]
       }
