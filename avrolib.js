@@ -1308,6 +1308,10 @@ OmicronLab.Avro.Phonetic = {
     "replace": "‌"
   },
   {
+    "find": ";;",
+    "replace": ";"
+  },
+  {
     "find": ";",
     "replace": ""
   },
