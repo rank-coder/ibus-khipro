@@ -31,13 +31,7 @@
 ## ইনস্টল, আপডেট, ও আনইনস্টল করা
 ### যেকোনো লিনাক্স ডিস্ট্রোতে সোর্স থেকে বিল্ড করা
 যেকোনো লিনাক্স ডিস্ট্রোতে ইনস্টল করার পরে সাজেশন অফ করে নিবেন। কারণ সাজেশন চালু থাকলে অভ্রের কোড ঝামেলা (ইন্টারফিয়ার) করতে পারে।
-#### Fedora
-Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
-```
-git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
-```
-এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
-#### অন্যান্য ডিস্ট্রো
+#### যেকোনো ডিস্ট্রো
 সোর্স থেকে বিল্ড করার জন্য নিচের প্যাকেজগুলো (অথবা আপনার ডিস্ট্রোতে এগুলোর সমকক্ষ প্যাকেজগুলো) লাগবে
 ```
  git
@@ -53,6 +47,13 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
 এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
+#### Fedora
+Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
+```
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+```
+এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
+
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
 Fedora-তে এক কমান্ডে আপডেট করতে:
