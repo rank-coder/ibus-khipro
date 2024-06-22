@@ -36,7 +36,8 @@ Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে
 ```
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
-এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)
+এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)<br>
+ফেদোরাতে উপরের নিয়ম কাজ না করলে নিচের নিয়মে চেষ্টা করতে পারেন।
 #### যেকোনো ডিস্ট্রো
 সোর্স থেকে বিল্ড করার জন্য নিচের প্যাকেজগুলো (অথবা আপনার ডিস্ট্রোতে এগুলোর সমকক্ষ প্যাকেজগুলো) লাগবে
 ```
