@@ -1356,12 +1356,12 @@ OmicronLab.Avro.Phonetic = {
     "replace": "০"
   },
   {
-    "find": ".;",
-    "replace": "."
-  },
-  {
     "find": "...",
     "replace": "..."
+  },
+  {
+    "find": "..",
+    "replace": "."
   },
   {
     "find": ".",
