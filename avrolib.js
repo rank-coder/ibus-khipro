@@ -253,6 +253,10 @@ OmicronLab.Avro.Phonetic = {
     "replace": "ঃ"
   },
   {
+    "find": "wff",
+    "replace": "‌ৃ"
+  },
+  {
     "find": "w",
     "replace": "ৃ",
     "rules": [
