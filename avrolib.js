@@ -298,6 +298,10 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "uuff",
+    "replace": "‌ূ"
+  },
+  {
     "find": "uu",
     "replace": "ূ",
     "rules": [
@@ -321,6 +325,10 @@ OmicronLab.Avro.Phonetic = {
         ]
       }
     ]
+  },
+  {
+    "find": "uff",
+    "replace": "‌ু"
   },
   {
     "find": "u",
