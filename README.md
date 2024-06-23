@@ -75,3 +75,7 @@ sudo make uninstall
 * লিনাক্স বাংলা গ্রুপ: https://t.me/linux_bangla
 # Documentation (Engilsh)
 To be added...
+## Contact us...
+* The Bangla Input Method Project Group: https://t.me/+oXLVpYDtyDNmYzll
+* Bangla Localization Community Group: https://t.me/BanglaLocalizationCommunity
+* Linux Bangla Group: https://t.me/linux_bangla
