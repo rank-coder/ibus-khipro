@@ -56,7 +56,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 ```
 এই প্যাকেজগুলো উবুন্টু, ডেবিয়ান, লিনাক্স মিন্ট, পপ OS, জরিন, ইত্যাদি এজাতীয় ডিস্ট্রোতে এক কমান্ডে ইনস্টল করতে:
 ```
- apt install git libibus-1.0-dev automake autoconf make gjs ibus
+ sudo apt install git libibus-1.0-dev automake autoconf make gjs ibus
 ```
 উপরের প্যাকেজগুলো ইনস্টল করা হলে নিচের কমান্ড দিয়ে ক্ষিপ্র ইনস্টল করতে হবে:
 ```
