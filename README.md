@@ -65,7 +65,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  acloca
 এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
-Fedora-তে এক কমান্ডে আপডেট করতে:
+উপরের কমান্ড দিয়ে ইনস্টল করে থাকলে সকল ডিস্ট্রোতে এক কমান্ডে আপডেট করতে নিচের কমান্ড ব্যবহার করতে পারবেন:
 ```
 cd ~/ibus-khipro; sudo make uninstall; cd ~/; rm -rf ibus-khipro; git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
