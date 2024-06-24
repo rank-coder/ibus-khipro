@@ -63,6 +63,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
 এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
+ক্ষিপ্র ইনস্টল করার পদ্ধতি অভ্র ইনস্টল করার মতোই, যেহেতু এটা অভ্রেরই ফর্ক। তাই অভ্র ইনস্টল করার পদ্ধতিটা দেখে নিতে পারেন: https://github.com/sarim/ibus-avro?tab=readme-ov-file#installation
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
 উপরের কমান্ড দিয়ে ইনস্টল করে থাকলে সকল ডিস্ট্রোতে এক কমান্ডে আপডেট করতে নিচের কমান্ড ব্যবহার করতে পারবেন:
