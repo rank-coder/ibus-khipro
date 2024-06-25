@@ -966,6 +966,26 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "nff",
+    "replace": "ঞ্",
+    "rules": [
+      {
+        "replace": "ঞ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "nf",
     "replace": "ণ্",
     "rules": [
@@ -1031,26 +1051,6 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ন",
-        "matches": [
-          {
-            "type": "suffix",
-            "scope": "!consonant"
-          },
-          {
-            "type": "suffix",
-            "scope": "!exact",
-            "value": "`"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "find": "mf",
-    "replace": "ঞ্",
-    "rules": [
-      {
-        "replace": "ঞ",
         "matches": [
           {
             "type": "suffix",
