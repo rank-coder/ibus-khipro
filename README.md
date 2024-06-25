@@ -66,7 +66,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  acloca
 ক্ষিপ্র ইনস্টল করার পদ্ধতি অভ্র ইনস্টল করার মতোই, যেহেতু এটা অভ্রেরই ফর্ক। তাই অভ্র ইনস্টল করার পদ্ধতিটা দেখে নিতে পারেন: https://github.com/sarim/ibus-avro?tab=readme-ov-file#installation
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
-উপরের কমান্ড দিয়ে ইনস্টল করে থাকলে সকল ডিস্ট্রোতে এক কমান্ডে আপডেট করতে নিচের কমান্ড ব্যবহার করতে পারবেন:
+উপরের নিয়মে ইনস্টল করে থাকলে সকল ডিস্ট্রোতে এক কমান্ডে আপডেট করতে নিচের কমান্ড ব্যবহার করতে পারবেন। এই এক কমান্ডেই আনইনস্টল ও আপডেট হয়ে যাবে।
 ```
 cd ~/ibus-khipro; sudo make uninstall; cd ~/; rm -rf ibus-khipro; git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
 ```
