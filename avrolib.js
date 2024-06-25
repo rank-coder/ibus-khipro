@@ -1297,6 +1297,26 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ggg",
+    "replace": "গ্গ্",
+    "rules": [
+      {
+        "replace": "গ্গ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!consonant"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "gg",
     "replace": "জ্ঞ্",
     "rules": [
       {
@@ -1314,10 +1334,6 @@ OmicronLab.Avro.Phonetic = {
         ]
       }
     ]
-  },
-  {
-    "find": "gf",
-    "replace": "জ্ঞ"
   },
   {
     "find": "g",
