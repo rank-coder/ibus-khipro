@@ -79,7 +79,7 @@ cd ~/ibus-khipro; sudo make uninstall; cd ~/; rm -rf ibus-khipro; git clone http
 sudo make uninstall
 ```
 এই কমান্ড দিলেই ক্ষিপ্র আনইনস্টল হয়ে যাবে। তারপরেই কেবল আপনি ibus-khipro ফোল্ডারটি ডিলিট করবেন, তার আগে নয়।
-## আমাদের সাথে যোগাযোগ
+## যোগাযোগ...
 * বাংলা ইনপুট মেথড প্রকল্প গ্রুপ: https://t.me/+oXLVpYDtyDNmYzll
 * বাংলা লোকালাইজেশন কমিউনিটি গ্রুপ: https://t.me/BanglaLocalizationCommunity
 * লিনাক্স বাংলা গ্রুপ: https://t.me/linux_bangla
