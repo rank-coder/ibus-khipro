@@ -1,4 +1,4 @@
-# Documentation
+![বাংলা ইনপুট মেথড ক্ষিপ্র (Copy)](https://github.com/rank-coder/ibus-khipro/assets/54497225/51f36cf2-844f-4930-b04d-40ec6ddf8f8d)# Documentation
 *For English please [scroll down](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#documentation-engilsh).*
 ## পরিচিতি
 অভ্র কিবোর্ডে ফোনেটিক লেআউটে লেখার সময় আমাদেরকে বারবার শিফট চাপতে হয়, ফলে লেখার ফ্লো বা ধারাবাহিকতা নষ্ট হয়ে যায়; লেখার গতি তাই একটা নির্দিষ্ট পরিমাণের বেশি বাড়ানো যায় না। চীনের একটা রোমানাইজেশন পদ্ধতি 'পিনইন'-এ কেস ইনসেনসিটিভ ফোনেটিক ম্যাপিং ব্যবহার করা হয়। তাই আমরা চেষ্টা করছি বাংলার রোমানাইজেশনভিত্তিক টাইপিংয়ে সেরকম দ্রুতগতি আনার। চীনে পিনইন-ভিত্তিক ইনপুট মেথড ব্যবহার করে তারা এত জটিল একটা ভাষাকে ইংরেজির চাইতেও দ্রুত গতিতে লিখছে।<br> ক্ষিপ্র কিবোর্ডের ডেভেলপমেন্ট এখনো চলছে। আপনার কোনো অভিযোগ বা পরামর্শ থাকলে আমাদের সাথে যোগাযোগ করতে পারেন নিচে দেওয়া [লিংকে](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%A5%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97)।
@@ -8,7 +8,7 @@
 ![Screenshot from 2024-06-22 22-19-24](https://github.com/rank-coder/ibus-khipro/assets/54497225/3e73cb68-74a0-4f64-ad08-0ab0b38e9400)
 <br> <br>
 এবার দেখে নিই ক্ষিপ্র কিবোর্ডের ম্যাপিংটা কী রকম। <br> <br>
-![বাংলা ইনপুট মেথড ক্ষিপ্র](https://github.com/rank-coder/ibus-khipro/assets/54497225/812dbdd9-4341-4a54-afc0-9d810ac9f628)
+![বাংলা ইনপুট মেথড ক্ষিপ্র (Copy)](https://github.com/rank-coder/ibus-khipro/assets/54497225/32a4d13a-370b-4183-b790-2d24077ae043)
 
 ## সূচিপত্র
 1. [কীভাবে কাজ করে আর কী কী ফিচার আছে](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%95%E0%A7%80-%E0%A6%AB%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%9B%E0%A7%87)
