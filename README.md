@@ -39,9 +39,9 @@
 #### ফেদোরা Fedora
 Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে একটা টার্মিনাল উইন্ডো খুলে সেখানে নিচের কমান্ড দিলে ক্ষিপ্র ইনস্টল হয়ে যাবে।
 ```
-git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install
 ```
-এতে সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)<br>
+এরপরে আপনার সিস্টেম লগআউট কিংবা রিস্টার্ট করে নিন। তারপর সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি)<br>
 ফেদোরাতে উপরের নিয়ম কাজ না করলে নিচের নিয়মে চেষ্টা করতে পারেন।
 #### যেকোনো ডিস্ট্রো
 সোর্স থেকে বিল্ড করার জন্য নিচের প্যাকেজগুলো (অথবা আপনার ডিস্ট্রোতে এগুলোর সমকক্ষ প্যাকেজগুলো) লাগবে
@@ -60,9 +60,9 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 ```
 উপরের প্যাকেজগুলো ইনস্টল করা হলে নিচের কমান্ড দিয়ে ক্ষিপ্র ইনস্টল করতে হবে:
 ```
-git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install; ibus restart
+git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install
 ```
-এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
+এরপরে সিস্টেম লগআউট কিংবা রিস্টার্ট করুন। এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
 ক্ষিপ্র ইনস্টল করার পদ্ধতি অভ্র ইনস্টল করার মতোই, যেহেতু এটা অভ্রেরই ফর্ক। তাই অভ্র ইনস্টল করার পদ্ধতিটা দেখে নিতে পারেন: https://github.com/sarim/ibus-avro?tab=readme-ov-file#installation
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
