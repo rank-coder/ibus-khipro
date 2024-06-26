@@ -585,10 +585,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ttff",
-    "replace": "তঠ",
+    "replace": "তঠ্",
     "rules": [
       {
-        "replace": "তঠ্",
+        "replace": "তঠ",
         "matches": [
           {
             "type": "suffix",
@@ -949,10 +949,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "tftff",
-    "replace": "টঠ",
+    "replace": "টঠ্",
     "rules": [
       {
-        "replace": "টঠ্",
+        "replace": "টঠ",
         "matches": [
           {
             "type": "suffix",
@@ -1339,10 +1339,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "stff",
-    "replace": "সঠ",
+    "replace": "সঠ্",
     "rules": [
       {
-        "replace": "সঠ্",
+        "replace": "সঠ",
         "matches": [
           {
             "type": "suffix",
@@ -2557,10 +2557,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ptff",
-    "replace": "পঠ",
+    "replace": "পঠ্",
     "rules": [
       {
-        "replace": "পঠ্",
+        "replace": "পঠ",
         "matches": [
           {
             "type": "suffix",
@@ -4375,10 +4375,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ndff",
-    "replace": "নঢ",
+    "replace": "নঢ্",
     "rules": [
       {
-        "replace": "নঢ্",
+        "replace": "নঢ",
         "matches": [
           {
             "type": "suffix",
@@ -5025,10 +5025,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ltff",
-    "replace": "লঠ",
+    "replace": "লঠ্",
     "rules": [
       {
-        "replace": "লঠ্",
+        "replace": "লঠ",
         "matches": [
           {
             "type": "suffix",
@@ -5259,10 +5259,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ldff",
-    "replace": "লঢ",
+    "replace": "লঢ্",
     "rules": [
       {
-        "replace": "লঢ্",
+        "replace": "লঢ",
         "matches": [
           {
             "type": "suffix",
@@ -5467,10 +5467,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ktff",
-    "replace": "কঠ",
+    "replace": "কঠ্",
     "rules": [
       {
-        "replace": "কঠ্",
+        "replace": "কঠ",
         "matches": [
           {
             "type": "suffix",
@@ -7626,10 +7626,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "dfdff",
-    "replace": "ডঢ",
+    "replace": "ডঢ্",
     "rules": [
       {
-        "replace": "ডঢ্",
+        "replace": "ডঢ",
         "matches": [
           {
             "type": "suffix",
@@ -7756,10 +7756,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ddff",
-    "replace": "দঢ",
+    "replace": "দঢ্",
     "rules": [
       {
-        "replace": "দঢ্",
+        "replace": "দঢ",
         "matches": [
           {
             "type": "suffix",
@@ -8484,10 +8484,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "bdff",
-    "replace": "বঢ",
+    "replace": "বঢ্",
     "rules": [
       {
-        "replace": "বঢ্",
+        "replace": "বঢ",
         "matches": [
           {
             "type": "suffix",
