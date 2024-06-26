@@ -584,6 +584,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "ttff",
+    "replace": "তঠ",
+    "rules": [
+      {
+        "replace": "তঠ্",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "ttf",
     "replace": "ট্ট্",
     "rules": [
@@ -901,6 +927,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ট্য",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "tftff",
+    "replace": "টঠ",
+    "rules": [
+      {
+        "replace": "টঠ্",
         "matches": [
           {
             "type": "suffix",
@@ -1265,6 +1317,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "স্ট্র",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "stff",
+    "replace": "সঠ",
+    "rules": [
+      {
+        "replace": "সঠ্",
         "matches": [
           {
             "type": "suffix",
@@ -2457,6 +2535,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "প্য",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "ptff",
+    "replace": "পঠ",
+    "rules": [
+      {
+        "replace": "পঠ্",
         "matches": [
           {
             "type": "suffix",
@@ -4270,6 +4374,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "ndff",
+    "replace": "নঢ",
+    "rules": [
+      {
+        "replace": "নঢ্",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "ndf",
     "replace": "ন্ড্",
     "rules": [
@@ -4894,6 +5024,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "ltff",
+    "replace": "লঠ",
+    "rules": [
+      {
+        "replace": "লঠ্",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "ltf",
     "replace": "ল্ট্",
     "rules": [
@@ -5102,6 +5258,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "ldff",
+    "replace": "লঢ",
+    "rules": [
+      {
+        "replace": "লঢ্",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "ldf",
     "replace": "ল্ড্",
     "rules": [
@@ -5263,6 +5445,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ক্ট্র",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "ktff",
+    "replace": "কঠ",
+    "rules": [
+      {
+        "replace": "কঠ্",
         "matches": [
           {
             "type": "suffix",
@@ -7417,6 +7625,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "dfdff",
+    "replace": "ডঢ",
+    "rules": [
+      {
+        "replace": "ডঢ্",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "dfdf",
     "replace": "ড্ড্",
     "rules": [
@@ -7500,6 +7734,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "দ্ধ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "ddff",
+    "replace": "দঢ",
+    "rules": [
+      {
+        "replace": "দঢ্",
         "matches": [
           {
             "type": "suffix",
@@ -8202,6 +8462,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ব্ধ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "bdff",
+    "replace": "বঢ",
+    "rules": [
+      {
+        "replace": "বঢ্",
         "matches": [
           {
             "type": "suffix",
