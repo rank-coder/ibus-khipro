@@ -43,7 +43,7 @@ Home ফোল্ডার বা ডিরেক্টরিতে গিয়ে
 ```
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo dnf install automake; sudo dnf install make;  sudo dnf install ibus-devel ibus-libs;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install
 ```
-এরপরে আপনার সিস্টেম লগআউট কিংবা রিস্টার্ট করে নিন। তারপর সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (এখনো অভ্রের কোডে রিব্র্যান্ডিং করা হয়নি, তাই ক্ষিপ্র নামে ইনস্টল হবে না।)<br>
+এরপরে আপনার সিস্টেম লগআউট কিংবা রিস্টার্ট করে নিন। তারপর সেটিংসে ibus-khipro নামে ক্ষিপ্র চলে আসবে।<br>
 ফেদোরাতে উপরের নিয়ম কাজ না করলে নিচের নিয়মে চেষ্টা করতে পারেন।
 #### যেকোনো ডিস্ট্রো
 সোর্স থেকে বিল্ড করার জন্য নিচের প্যাকেজগুলো (অথবা আপনার ডিস্ট্রোতে এগুলোর সমকক্ষ প্যাকেজগুলো) লাগবে
@@ -64,7 +64,7 @@ git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  sudo d
 ```
 git clone https://github.com/rank-coder/ibus-khipro.git; cd ibus-khipro;  aclocal && autoconf && automake --add-missing;  ./configure --prefix=/usr;  sudo make install
 ```
-এরপরে সিস্টেম লগআউট কিংবা রিস্টার্ট করুন। এবারেও সেটিংসে ibus-avro নামে ক্ষিপ্র চলে আসবে (কারণ এখনও ক্ষিপ্রর রিব্র্যান্ডিং করা হয়নি। তাই ক্ষিপ্র নামে ইনস্টল হবে না)। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
+এরপরে সিস্টেম লগআউট কিংবা রিস্টার্ট করুন। এবারেও সেটিংসে ibus-khipro নামে ক্ষিপ্র চলে আসবে। যদি না খুঁজে পাওয়া যায় তবে ibus preferences থেকে ইনেবল করে নিতে হবে।
 ক্ষিপ্র ইনস্টল করার পদ্ধতি অভ্র ইনস্টল করার মতোই, যেহেতু এটা অভ্রেরই ফর্ক। তাই অভ্র ইনস্টল করার পদ্ধতিটা দেখে নিতে পারেন: https://github.com/sarim/ibus-avro?tab=readme-ov-file#installation
 ### আপডেট করা
 আপডেট করতে হলে আগে আনইনস্টল করতে হবে তারপরে আবার ইনস্টল করতে হবে।<br>
