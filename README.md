@@ -8,7 +8,7 @@
 ![Screenshot from 2024-06-22 22-19-24](https://github.com/rank-coder/ibus-khipro/assets/54497225/3e73cb68-74a0-4f64-ad08-0ab0b38e9400)
 <br> <br>
 এবার দেখে নিই ক্ষিপ্র কিবোর্ডের ম্যাপিংটা কী রকম। <br> <br>
-![বাংলা ইনপুট মেথড ক্ষিপ্র (Copy)](https://github.com/rank-coder/ibus-khipro/assets/54497225/90aee8b6-557f-44ba-aaed-35fe249ce1ae)
+![বাংলা ইনপুট মেথড ক্ষিপ্র (Copy)](https://github.com/rank-coder/ibus-khipro/assets/54497225/29f3a51e-76ec-4141-98b8-175ff9138252)
 
 ## সূচিপত্র
 1. [কীভাবে কাজ করে আর কী কী ফিচার আছে](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%95%E0%A7%80-%E0%A6%AB%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%9B%E0%A7%87)
