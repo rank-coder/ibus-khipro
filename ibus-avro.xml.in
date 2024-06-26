@@ -12,14 +12,14 @@
 
 	<engines>
 		<engine>
-			<name>ibus-avro</name>
+			<name>ibus-khipro</name>
 			<language>bn</language>
 			<license>MPL</license>
-			<author>Sarim Khan &lt;sarim2005@gmail.com&gt;</author>
+			<author>Bangla Localization Community &lt;t.me/BanglaLocalizationCommunity&gt;</author>
 			<icon>${pkgdatadir}/avro-bangla.png</icon>
 			<layout>us</layout>
-			<longname>Avro Phonetic</longname>
-			<description>Avro Phonetic Input Method</description>
+			<longname>Khipro FixPhonetic</longname>
+			<description>Khipro the faster fork of Avro keyboard</description>
 			<setup>/usr/bin/env gjs --include-path=${pkgdatadir} ${pkgdatadir}/pref.js --standalone</setup>
 			<rank>0</rank>
 		</engine>
