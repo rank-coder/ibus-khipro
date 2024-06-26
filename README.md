@@ -81,11 +81,13 @@ sudo make uninstall
 এই কমান্ড দিলেই ক্ষিপ্র আনইনস্টল হয়ে যাবে। তারপরেই কেবল আপনি ibus-khipro ফোল্ডারটি ডিলিট করবেন, তার আগে নয়।
 ## যোগাযোগ...
 * বাংলা ইনপুট মেথড প্রকল্প গ্রুপ: https://t.me/+oXLVpYDtyDNmYzll
+* Discord: https://discord.gg/GPt6s8cb48
 * বাংলা লোকালাইজেশন কমিউনিটি গ্রুপ: https://t.me/BanglaLocalizationCommunity
 * লিনাক্স বাংলা গ্রুপ: https://t.me/linux_bangla
 # Documentation (Engilsh)
 To be added...
 ## Contact us...
 * The Bangla Input Method Project Group: https://t.me/+oXLVpYDtyDNmYzll
+* Discord: https://discord.gg/GPt6s8cb48
 * Bangla Localization Community Group: https://t.me/BanglaLocalizationCommunity
 * Linux Bangla Group: https://t.me/linux_bangla
