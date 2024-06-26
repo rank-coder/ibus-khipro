@@ -2634,6 +2634,32 @@ OmicronLab.Avro.Phonetic = {
     ]
   },
   {
+    "find": "psh",
+    "replace": "পশ্",
+    "rules": [
+      {
+        "replace": "পশ",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "find": "ps",
     "replace": "প্স্",
     "rules": [
@@ -3235,6 +3261,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ন্ত",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "nsh",
+    "replace": "নশ্",
+    "rules": [
+      {
+        "replace": "নশ",
         "matches": [
           {
             "type": "suffix",
@@ -5523,6 +5575,32 @@ OmicronLab.Avro.Phonetic = {
     "rules": [
       {
         "replace": "ক্ত",
+        "matches": [
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "r"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "z"
+          },
+          {
+            "type": "suffix",
+            "scope": "!exact",
+            "value": "`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "find": "ksh",
+    "replace": "কশ্",
+    "rules": [
+      {
+        "replace": "কশ",
         "matches": [
           {
             "type": "suffix",
