@@ -11,7 +11,6 @@
 ![বাংলা ইনপুট মেথড ক্ষিপ্র (Copy)](https://github.com/rank-coder/ibus-khipro/assets/54497225/0f5bd5ad-1c5e-4ea1-8c1c-6fba2f46d572)
 
 
-<br> percent => % ম্যাপিং করা হয়েছে অভ্রের একটা বাগের কারণে। বাগটা এখনো ফিক্স করা যায়নি বিধায় এই অস্থায়ী যোগাড় (workaround) করা হয়েছে।
 ## সূচিপত্র
 1. [কীভাবে কাজ করে আর কী কী ফিচার আছে](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%95%E0%A7%80-%E0%A6%AB%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%9B%E0%A7%87)
 2. [স্বরবর্ণ সংক্রান্ত](https://github.com/rank-coder/ibus-khipro/tree/master?tab=readme-ov-file#%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%93-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%9A%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4)
