@@ -3491,10 +3491,10 @@ OmicronLab.Avro.Phonetic = {
   },
   {
     "find": "ngkt",
-    "replace": "ঙ্‌ক্তি্",
+    "replace": "ঙ্‌ক্ত্",
     "rules": [
       {
-        "replace": "ঙ্‌ক্তি",
+        "replace": "ঙ্‌ক্ত",
         "matches": [
           {
             "type": "suffix",
